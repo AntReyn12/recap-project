@@ -5,3 +5,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: blanchedalmond;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+  background-color: cadetblue;
+  border-bottom: coral 2px solid;
+}
+.left {
+  font-size: 22px;
+  margin-left: 105px;
+}
+nav {
+  width: 30%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  padding: 0 25px;
+  font-size: 22px;
+}
+li:hover {
+  cursor: pointer;
+  color: crimson;
+}
+main {
+  width: 100%;
+  margin-top: 80px;
+}
+.paragraphs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.paragraphs h2 {
+  padding-bottom: 20px;
+}
+.paragraphs p {
+  width: 80%;
+}
