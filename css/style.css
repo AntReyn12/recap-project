@@ -54,3 +54,19 @@ main {
 .paragraphs p {
   width: 80%;
 }
+.image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.background {
+  background-color: white;
+  padding: 5px 5px 0 5px;
+  border-radius: 50%;
+}
