@@ -88,3 +88,17 @@ img {
 .hide {
   display: none;
 }
+
+.count {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.count p {
+  padding-left: 25px;
+}
+.count button {
+  padding: 2px;
+  margin: 10px;
+}
