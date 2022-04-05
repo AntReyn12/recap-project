@@ -21,11 +21,11 @@ function showInput() {
 }
 
 add.addEventListener("click", function () {
-  count = count + 1;
+  count += 1;
   countValue.textContent = "Count: " + count;
 });
 
 subtract.addEventListener("click", function () {
-  count = count - 1;
+  count -= 1;
   countValue.textContent = "Count: " + count;
 });
