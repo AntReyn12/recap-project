@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: blanchedalmond;
+  background-color: gray;
 }
 header {
   width: 100%;
@@ -16,6 +16,7 @@ header {
   padding: 25px 0;
   background-color: cadetblue;
   border-bottom: coral 2px solid;
+  border-radius: 10px;
 }
 .left {
   font-size: 22px;
